@@ -17,9 +17,31 @@ header nav ul li{
 }
 
 #PrimeraSeccion{
+    margin-top: -17px;
     background-color: #efefef;
+    width: 20%;
 }
 
-#secc01art01 img{
-    text-align: center;
+#Secc01art01{
+    margin-left: 20px;
+    width: 83.6%;
+    background-color: #1e4972;
+}
+
+#Secc01art01 ul{
+    list-style: none;
+    margin-top: -2px;
+}
+
+#Secc01art01 ul li{
+    color: white;
+    padding-bottom: 6px;
+    margin-left: -25px;
+}
+
+#Secc01art02{
+    color: gray;
+    background-color: white;
+    width: 83.6%;
+    margin-left: 20px;
 }
