@@ -1,47 +1,261 @@
 body{
-    background-color: #245d92;
+        font-size: 16px; /*1em*/
+        margin: 0px auto;
+        /* Recomendacion del cliente */
+        max-width: 1078px;
+        min-width: 1078px;
+}
+
+body section{
+    display: inline-block;
 }
 
 header{
     text-align: center;
+    background-color: #245d92;
 }
 
-header nav{
+header img{
+    width: 15%;
+}
+
+#articulolinks{
+    padding-bottom: 5px;
+}
+
+#barra04{
+    padding-bottom: 10px;
+}
+
+#CubosSeccion{
+    display: inline-block;
+    padding: 10px;
+    margin-left: 5px;
+    width: 20%;
+    margin-top: 25px;
+    text-align: center;
+    margin-left: 10px;
+}
+
+#cubosseccionart01{
+    padding-top: 100px;
+    background: #19a920;
+    border-radius: 5px;
+}
+
+#cubosseccionart01 img{
+    width: 60%;
+}
+
+#cubosseccionart02{
+    width: 20%;
+    background: #1b6da9;
+    border-radius: 5px;
+}
+
+#cubosseccionart02 img{
+    width: 54%;
+}
+
+#cubosseccionart03{
+    width: 20%;
+    background: #7f1aa7;
+    border-radius: 5px;
+}
+#cubosseccionart03 img{
+    width: 55%;
+}
+
+#cubosseccionart04{
+    width: 20%;
+    background: #a71a19;
+    border-radius: 5px;
+}
+#cubosseccionart04 img{
+    width: 55%;
+}
+
+#main{
+    background-color: #245d92;
+}
+
+#main nav{
     text-align: right;
     border-radius: 5px;
     background-color: #efefef;
+    margin: 0px auto;
+    padding: 2px 0px;
+    width: 99%;
 }
 
-header nav ul li{
+#main nav ul li{
     display: inline-block;
+    padding-right: 30px;
+    margin-left: -70px;
+    margin-top: -10px;
+}
+
+#main nav ul li img{
+    width: 60%;
+}
+
+#logolink{
+    width: 25px;
+    padding-left: 10px;
+}
+
+#logoprogress{
+    width: 25px;
+    padding-left: 10px;
+}
+
+#notificacion{
+    padding-bottom: 4px;
+    
+}
+
+#PanelsSeccion{
+    margin-top: -15px;
+}
+
+#panelseccionart01 img{
+    margin-left: 21px;
+    width: 130%;
 }
 
 #PrimeraSeccion{
-    margin-top: -17px;
+    margin-top: -24px;
     background-color: #efefef;
+    border: 1px solid #efefef;
     width: 20%;
+    position: relative;
+    top: -7px;
+    right: -2px;
+    margin-left: 3px;
+    vertical-align: top;
+}
+
+#SegundaSeccion{
+    background-color: #ffffff;
+    border-radius: 5px;
+    border: #ffffff;
+    width: 70%;
+    position: relative;
+    top: -7px;
+    margin-left: -5px;
+
 }
 
 #Secc01art01{
-    margin-left: 20px;
-    width: 83.6%;
+    width: 87%;
     background-color: #1e4972;
+    vertical-align: top;
+    margin: 0px auto;
 }
 
 #Secc01art01 ul{
     list-style: none;
-    margin-top: -2px;
+    margin-left: -20px;
+    padding-top: -100px;
 }
 
 #Secc01art01 ul li{
-    color: white;
     padding-bottom: 6px;
-    margin-left: -25px;
+    font-size: 0.9em;
 }
 
 #Secc01art02{
-    color: gray;
     background-color: white;
-    width: 83.6%;
+    width: 87%;
+    margin: 0px auto;
+    border: 1px solid lightgray;
+}
+
+#Secc01art02 img{
+    text-align: left;
+    margin-left: -0px;
+}
+
+#tituloSeccionCubes{
+    margin-left: 8px;
+    margin-bottom: -20px;
+}
+
+#tituloSeccionPanels{
+    margin-left: 20px;
+    margin-bottom: -0px;
+}
+
+#tituloSeccionUsuarios{
+    text-align: left;
+    margin-left: 18px;
+    margin-bottom: -20px;
+}
+
+#UsuariosSeccion article{
+    display: inline-block;
+    text-align: center;
+    margin: 0px 2px;
+    margin-bottom: 5px;
+    padding-top: 6px;
+}
+#UsuariosSeccion article input{
+    border: 1px solid #5cbfde;
+    background: #5cbfde;
+    border-radius: 3px;
+    margin: 10px 0px;
+    font-size: 0.7em;
+    padding: 8px 12px;
+}
+
+#usuarioimg01{
+    width: 80%;
+}
+#usuarioimg02{
+    width: 74.5%;
+}
+#usuarioimg03{
+    width: 74.5%;
+}
+#usuarioimg04{
+    width: 75.2%;
+}
+
+.barra{
+    width: 99%;
     margin-left: 20px;
 }
+
+.centrado{
+    vertical-align: middle;
+}
+
+.colorblanco{
+    color: white;
+}
+
+.colorgrisypadding{
+    padding: 6px;
+    color: gray;
+}
+
+.letragrande{
+    font-size: 1.3em;
+}
+
+.nito{
+    font: bold;
+}
+
+.tituloPrimeraSeccion{
+    background: #275e8f;
+    font-size: 0.8em;
+    padding: 5px 0px;
+}
+
+.usuariocolorywidth{
+    width: 23%;
+    background: #4a6bae;
+}
+
+

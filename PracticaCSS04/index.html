@@ -4,58 +4,155 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Practica 04</title>
+    <title>Practica CSS 04</title>
     <link rel="stylesheet" href="CSS/estilos.css">
 </head>
 <body>
     <header>
         <img src="img/logo.png" alt="" id="logo">
+    </header>
+    
+    <section id="main">
         <nav>
             <ul>
-                <li><img src="img/notificaciones.png" alt=""></li>
+                <li><img src="img/notificaciones.png" alt="" id="notificacion"></li>
                 <li><img src="img/mensajes.png" alt=""></li>
                 <li><img src="img/ajustes.png" alt=""></li>
             </ul>
         </nav>
-    </header>
 
-    <section id="PrimeraSeccion">
-        <article id="Secc01art01">
-            <img src="img/panel.PNG" alt="">
-            <ul>
-                <li><&sol;> Example</li>
-                <li><&sol;> Example</li>
-                <li><&sol;> Example</li>
-                <li><&sol;> Example</li>
-                <li><&sol;> Example</li>
-                <li><&sol;> Example</li>
-                <li><&sol;> Example</li>
-                <li><&sol;> Example</li>
-                <li><&sol;> Example</li>
-                <li><&sol;> Example</li>
-            </ul>
-        </article>
-        <article id="Secc01art02">
-            <img src="img/logoprogress.png" alt="">
-            <span class="colorblanco nito">Panel with Progress</span>
-            <br>
-            Progress Bar
-            <p></p>
-            <img src="img/barra01.png" alt="">
-            <br>
-            Progress Bar
-            <p></p>
-            <img src="img/barra02.png" alt="">
-            <br>
-            Progress Bar
-            <p></p>
-            <img src="img/barra03.png" alt="">
-            <br>
-            Progress Bar
-            <p></p>
-            <img src="img/barra04.png" alt="">
-        </article>
+        <section id="PrimeraSeccion">
+            <article id="Secc01art01">
+                <article class="tituloPrimeraSeccion" id="articulolinks">
+                <img src="img/logolinks.png" alt="" class="centrado" id="logolink">
+                <span class="colorblanco centrado nito">Panel with Links</span>
+            </article>
+                <ul class="colorblanco">
+                    <li><&sol;> Example</li>
+                    <li><&sol;> Example</li>
+                    <li><&sol;> Example</li>
+                    <li><&sol;> Example</li>
+                    <li><&sol;> Example</li>
+                    <li><&sol;> Example</li>
+                    <li><&sol;> Example</li>
+                    <li><&sol;> Example</li>
+                    <li><&sol;> Example</li>
+                    <li><&sol;> Example</li>
+                </ul>
+            </article>
+            <article id="Secc01art02">
+                <article class="tituloPrimeraSeccion">
+                    <img src="img/logoprogress.png" alt="" class="centrado" id="logoprogress">
+                    <span class="colorblanco centrado nito">
+                        Panel with Progress
+                    </span>
+                </article>
+                <br>
+                <span class="colorgrisypadding">
+                    Progress Bar
+                </span>
+                <img src="img/barra01.png" alt="" class="barra">
+                <br>
+                <span class="colorgrisypadding">
+                    Progress Bar
+                </span>
+                <img src="img/barra02.png" alt="" class="barra">
+                <br>
+                <span class="colorgrisypadding">
+                    Progress Bar
+                </span>
+                <img src="img/barra03.png" alt="" class="barra">
+                <br>
+                <span class="colorgrisypadding">
+                    Progress Bar
+                </span>
+                <img src="img/barra04.png" alt="" class="barra" id="barra04">
+            </article>
+        </section>
+
+        <section id="SegundaSeccion">
+            <section id="CubosSeccion">
+                <span class="colorgrisypadding" id="tituloSeccionCubes">
+                    Simple Cubes
+                </span>
+
+                <article id="cubosseccionart01">
+                    <img src="img/cubo1.png" alt="">
+                    <br>
+                    <span class="colorblanco">Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
+                </article>
+
+                <article id="cubosseccionart02">
+                    <img src="img/cubo02.png" alt="">
+                    <br>
+                    <span class="colorblanco">Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
+                </article>
+
+                <article id="cubosseccionart03">
+                    <img src="img/cubo03.png" alt="">
+                    <br>
+                    <span class="colorblanco">Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
+                </article>
+
+                <article id="cubosseccionart04">
+                    <img src="img/cubo04.png" alt="">
+                    <br>
+                    <span class="colorblanco">Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
+                </article>
+            </section>
+
+            <section id="PanelsSeccion">
+                <span class="colorgrisypadding" id="tituloSeccionPanels">
+                    Panels
+                </span>
+                <br>
+                <article id="panelseccionart01">
+                    <img src="img/panels.PNG" alt="">
+                </article>
+            </section>
+
+            <section id="UsuariosSeccion">
+                <span class="colorgrisypadding" id="tituloSeccionUsuarios">
+                    Usuarios
+                </span>
+                <br>
+                <article class="usuariocolorywidth" id="usuariosseccionart01">
+                    <img src="img/usuario01.png" alt="" id="usuarioimg01"><br>
+                    <span class="colorblanco letragrande">
+                        User Example
+                    </span>
+                    <br>
+                    <input type="submit" value="&sol; Send Message" class="colorblanco">
+                </article>
+
+                <article class="usuariocolorywidth" id="usuariosseccionart02">
+                    <img src="img/usuario02.png" alt="" id="usuarioimg02"><br>
+                    <span class="colorblanco letragrande">
+                        User Example
+                    </span>
+                    <br>
+                    <input type="submit" value="&sol; Send Message" class="colorblanco">
+                </article>
+
+                <article class="usuariocolorywidth" id="usuariosseccionart03">
+                    <img src="img/usuario03.png" alt="" id="usuarioimg03"><br>
+                    <span class="colorblanco letragrande">
+                        User Example
+                    </span>
+                    <br>
+                    <input type="submit" value="&sol; Send Message" class="colorblanco">
+                </article>
+
+                <article class="usuariocolorywidth" id="usuariosseccionart04">
+                    <img src="img/usuario04.png" alt="" id="usuarioimg04"><br>
+                    <span class="colorblanco letragrande">
+                        User Example
+                    </span>
+                    <br>
+                    <input type="submit" value="&sol; Send Message" class="colorblanco">
+                </article>
+            </section>
+        </section>
     </section>
-    
 </body>
 </html>
